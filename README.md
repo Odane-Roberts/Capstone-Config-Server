@@ -1,5 +1,3 @@
-# Capstone-Config-Server
-
 
 # Config Server 
 This is a Java Spring Config Server that centralizes configuration management for your microservices applications.
@@ -18,14 +16,14 @@ Docker installed.
 
 
 ## Run The  Application
-
+### Package the application with maven
 
 
 ```bash
   mvn clean package
 ```
 
-## Launch docker 
+## Launch docker compose to build and run image from docker file
 
 
 ```bash
