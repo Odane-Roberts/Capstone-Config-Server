@@ -1,0 +1,12 @@
+  config-server:
+    build:
+      context: ./config-server
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    networks:
+      - my_network
+
+  networks:
+  my_network:
+    driver: bridge
